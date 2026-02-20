@@ -1,0 +1,154 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[colorlinks=true, linkcolor=blue!60!black]{hyperref}
+
+\geometry{top=2.0cm, bottom=2.0cm, left=2.5cm, right=2.5cm}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+
+% Header/Footer setup - Clear military/industrial feel
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \textit{NILSSON DRIVE PROJECT -- OPEN SOURCE}}
+\lhead{\small \textit{DOC ID: 10-ND1-FIELDMANUAL}}
+\cfoot{\thepage}
+
+\title{\Huge \textbf{DOCUMENT 10: FIELD MANUAL (FM-ND1)} \\[0.3em] \Large Standard Operating Procedures (SOP) for Nilsson-Drive Operators \\[0.5em]
+\normalsize Version 4.0 --- Node and Decoherence Mechanics}
+\author{\textbf{Flight Operations Command} \\ \textit{Tobias Nilsson}}
+\date{Revision Date: \today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\begin{abstract}
+\noindent
+\textbf{WARNING:} This manual contains critical procedures for the operation of the ND-1 Topological Pointer-Recoder. Failure to follow these protocols may result in catastrophic system loss, fatal cavity irradiation via Topological Recoil, or immediate termination of the crew via Topological Shearing. \textbf{Read before departure.}
+\end{abstract}
+
+
+\hrule
+\vspace{1em}
+\tableofcontents
+\newpage
+
+\section{Pre-Flight Checklist (Cold Boot)}
+Executed before every mission is launched from dock.
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+    \item \textbf{Reactor Status:} Verify MSR temperature $> 650^\circ$C. Turbines at 100\% RPM.
+    \item \textbf{Cryogenics:} Check SRC jacket temperature.
+    \begin{itemize}
+        \item \textit{Setpoint:} $< 4.2$ K (To minimize internal entropy).
+        \item \textit{Action on deviation:} Abort launch. Risk of magnet quench and decoherence leakage.
+    \end{itemize}
+    \item \textbf{Informational Calibration ($C$):} Initiate sub-critical PFE-Ping.
+    \begin{itemize}
+        \item \textit{Purpose:} NavCom must measure the ship's exact informational complexity ($C$), including new cargo and crew, to calculate the charge requirement ($E_{iso} = \kappa_N \cdot C \cdot \ln(O^{-1})$).
+    \end{itemize}
+    \item \textbf{SMES Bank:} Verify superconducting status. (Charge = 0\% during pre-flight).
+    \item \textbf{NavCom Diagnostics:} Run tests on IVM coils. Verify capacity for informational rotation.
+    \item \textbf{Beacon Link:} Establish Handshake with the destination beacon.
+    \begin{itemize}
+        \item \textit{Signal Strength:} $> -80$ dBm.
+        \item \textit{Encryption:} Target node address ($LV_{target}$) verified via QKD.
+    \end{itemize}
+\end{enumerate}
+
+\section{Jump Sequence (Interstellar Jump)}
+Executed by the Commander (CMD) and Pilot (PLT).
+
+\subsection{Phase 1: Preparation (T-minus 5 min)}
+\begin{itemize}
+    \item \textbf{CMD:} "Initiate Jump Sequence."
+    \item \textbf{PLT:} Activates NavCom. Loads target node $LV_{target}$.
+    \item \textbf{PLT:} "Target Node Locked. Rendering distance bypassed. Calculating Delta-V."
+    \item \textbf{SYS:} IVM system begins rotating the inertial frame within the network. (External distortion can be observed visually outside the ship).
+\end{itemize}
+
+\subsection{Phase 2: Charging (T-minus 60 sec)}
+\begin{itemize}
+    \item \textbf{CMD:} "Charge SMES."
+    \item \textbf{PLT:} Reactor output routed to SMES. Max power transfer engaged.
+    \item \textbf{SYS:} Hull Integrity Field (HIF) activated.
+    \item \textbf{WARNING (Intercom):} "Clear Buffer Zone. 5 cm limit active. Brace for isolation and QEC Braider engagement."
+\end{itemize}
+
+
+
+\subsection{Phase 3: The Injection (T-minus 0)}
+\begin{itemize}
+    \item \textbf{PLT:} "SMES at 100\%. QEC Braider Locked (-15 dB). Decoherence dropping. Ready for Injection."
+    \item \textbf{CMD:} "Execute."
+    \item \textbf{PLT:} Depresses PFE TRIGGER.
+    \item \textbf{SYS:} Laser fires. The product ($C \cdot O$) is forced below the local threshold field ($T_{\mathrm{local}}$). The new pointer is injected.
+    \item \textbf{EFFECT:} Immediate silence. The starfield shifts instantaneously. No g-force is experienced inside the cabin ($1 \times t_P$ duration).
+\end{itemize}
+
+\subsection{Phase 4: Arrival and Cool-down}
+\begin{itemize}
+    \item \textbf{SYS:} "Translation Complete. Causality preserved. Node updated."
+    \item \textbf{PLT:} Dumping informational entropy. Graphene radiators deployed.
+    \item \textbf{CMD:} "Lock NavCom. Begin 20-minute Ring-down wait ($\tau_{relax}$)."
+\end{itemize}
+
+
+\section{Emergency Ops}
+
+\subsection{RED ALERT: Topological Recoil (TRP Risk)}
+\textit{Indicator:} Acoustic alarm. HUD flashes red. Active isolation ($E_{\mathrm{iso}}$) is over-excited, attempting to force decoherence ($O$) past the asymptotic safety margin. The matrix will resist and dump the excess energy back into the cavity.
+\begin{enumerate}[label=\textbf{Step \arabic*.}]
+    \item \textbf{SCRAM:} Strike the physical TRP emergency breaker (Hardware Override).
+    \item \textbf{Dump:} SMES energy is dumped into external resistors (Expect an extremely white flash outside the hull when the charge is aborted).
+    \item \textbf{Brace:} If the TRP fails to sever the connection, lethal ionizing radiation (Schwinger limit pair-production) will instantly flood the cabin.
+\end{enumerate}
+
+
+
+\subsection{YELLOW ALERT: QEC Failure (Quantization Noise)}
+\textit{Indicator:} Warning: "Squeezed State Lost". Quantization noise from the matrix is penetrating the cavity, causing the rendering to drop data bits.
+\begin{enumerate}[label=\textbf{Step \arabic*.}]
+    \item \textbf{ABORT:} Abort the jump immediately if PFE has not fired and $(C \cdot O)$ is still $> T_{\mathrm{local}}$.
+    \item \textbf{Shields:} If injection is underway (too late to abort), activate secondary magnetic radiation shielding.
+    \item \textbf{Brace:} Prepare for a massive dose of informational radiation (Hawking-analogue) as the matrix drops atoms. Medical triage is required immediately upon arrival.
+\end{enumerate}
+
+\subsection{BLIND JUMP (The Last Resort)}
+\textit{Scenario:} Hostile fire, collision course with unknown matter, or total system collapse. No Beacon available.
+\begin{enumerate}[label=\textbf{Step \arabic*.}]
+    \item \textbf{CMD \& PLT:} Turn both "Override Keys" simultaneously to lift the interlock against unknown nodes.
+    \item \textbf{PLT:} Input manual pointer-guess.
+    \item \textbf{CMD:} "Punch it."
+    \item \textbf{Risk:} Extreme. Risk of rendering inside solid matter. Imminent risk of lethal shear stresses due to uncompensated $\Delta v$.
+\end{enumerate}
+
+\section{System Limits (Hard Limits)}
+
+
+
+\begin{itemize}
+    \item \textbf{Atmospheric Prohibition:} Jumps must \textbf{NEVER} be executed inside a planetary atmosphere. The network cannot separate the ship's network edges from the gas's network edges fast enough, resulting in the air being injected into the hull (immediate nuclear fusion along the entire surface). \textit{Note: All terrestrial or intra-planetary LVT transport must strictly utilize certified, pre-evacuated Vacuum Terminals.}
+    \item \textbf{Gravity Wells:} Injections closer than 1000 km to a planetary mass require double IVM power due to the high informational density gradient (steep network topology).
+    \item \textbf{Frequency:} Maximum 1 jump per $\tau_{relax}$ (approx. 20-30 minutes depending on local network noise).
+\end{itemize}
+
+
+\section{System Limits (Hard Limits)}
+\begin{itemize}
+        \item \textbf{Atmospheric Prohibition:} Jumps must \textbf{NEVER} be executed inside a planetary atmosphere. The network cannot separate the ship's network edges from the gas's network edges fast enough, resulting in the air being injected into the hull (immediate nuclear fusion along the entire surface). \textit{Note: All terrestrial or intra-planetary LVT transport must strictly utilize certified, pre-evacuated Vacuum Terminals.}
+
+    \item \textbf{Gravity Wells:} Injections closer than 1000 km to a planetary mass require double IVM power due to the high informational density gradient (steep network topology).
+    \item \textbf{Frequency:} Maximum 1 jump per $\tau_{relax}$ (approx. 20-30 minutes depending on local network noise).
+\end{itemize}
+
+\end{document}
+
