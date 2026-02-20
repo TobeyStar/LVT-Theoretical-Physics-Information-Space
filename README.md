@@ -12,7 +12,7 @@
 Locational Variable Theory (LVT) is an axiomatic field theory that operationalizes macroscopic spacetime as an emergent property of underlying quantum informational complexity. By redefining location ($LV$) as a node-pointer in a discrete informational graph, LVT provides a unified solution to the most persistent anomalies in modern physics.
 
 ### **Key Breakthroughs**
-* **Gravity without Spacetime:** Derived from the thermodynamic cost of informational cleanup within the cosmic network.
+* **Gravity without Spacetime:** The informational discharge triggered by locational imbalance within the cosmic matrix, functioning as a thermodynamic restoration of equilibrium.
 * **The Friction Anomaly:** Explained via **Landauer’s Principle** as the thermal exhaust of chaotic data erasure during microscopic interaction.
 * **Non-Kinetic Propulsion:** The theoretical and engineering basis for the **Nilsson-Drive**, allowing for spatial translation without traversing the intervening metric ($C \cdot O < T_{\mathrm{local}}$).
 * **The Uniqueness Principle:** A new derivation of the Pauli Exclusion Principle as an "IP-address conflict" in reality’s rendering engine.
