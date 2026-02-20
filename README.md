@@ -22,6 +22,8 @@ Locational Variable Theory (LVT) is an axiomatic field theory that operationaliz
 ## 📂 Repository Structure & Documentation Archive
 This repository contains the complete 12-document framework of LVT, including the theoretical proofs, engineering schematics, and experimental protocols.
 
+* **[LaTeX Source Code](./LaTeX_Source/)** – Full raw source for peer review and academic auditing.
+
 ### **Phase 1: Theoretical Foundations**
 * **[DOC00: LVT Axiomatics and Mathematical Foundation](./Phase_1/DOC00_LVT_Axiomatics_and_Mathematical_Foundation.pdf)** – The formal derivation of Informational Spacetime and the Nilsson Constant ($\kappa_N$).
 * **[DOC01: LVT Strategic White Paper](./Phase_1/DOC01_LVT_Strategic_White_Paper.pdf)** – Global implications, the end of the kinetic era, and the transition to topological transit.
