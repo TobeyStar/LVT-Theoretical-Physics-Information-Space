@@ -93,14 +93,18 @@ Where $\kappa_N$ is the \textbf{Nilsson Constant}, which defines the equipment-s
 
 Once the craft has passed below the threshold value ($T_{\mathrm{local}}$) and lost its external coupling to macroscopic space ($S=0$), its node-pointer is in an editable state. The system's internal computer communicates with a receiving beacon to establish and synchronize the pointer to the destination node ($\Delta LV_{\text{dest}} = 0$).
 
-\subsection{The Informational Cost ($E_{\text{info}}$)}
-In informational physics, there is a fundamental minimum energy cost required to erase and rewrite data. This is governed by \textbf{Landauer's principle}. The cost to rewrite the target of the $LV$-pointers depends on the number of addressing bits ($N_{\text{bits}}$) and the cavity's internal temperature ($T_{\text{cavity}}$):
+\subsection{3.1 The Informational Cost ($E_{info}$)}
+Once the payload's complexity ($C_{\mathrm{eff}}$) is successfully isolated below the local rendering threshold ($T_{\mathrm{local}}$) via the SRC cavity, the system's external node-pointer ($LV_{\mathrm{external}}$) enters a floating, undefined state.
 
+To execute the Topological Translocation, the navigation computer (NavCom) must inject a new destination address ($LV_B$) into the local matrix buffer. According to the Landauer-Hawking framework, overwriting this spatial data is a physically irreversible process that demands a strict thermodynamic exhaust. 
+
+The informational work required to rewrite the macroscopic pointer is directly proportional to the bits erased from the Host's cosmic horizon. Utilizing the established empirical quantum of spatial erasure ($E_{\mathrm{Landauer}}$), the rewriting cost is:
 \begin{equation}
-\boxed{ E_{\text{info}} = N_{\text{bits}} \cdot k_B T_{\text{cavity}} \ln(2) }
+E_{\mathrm{info}} = N_{\mathrm{bits}} \cdot E_{\mathrm{Landauer}} = N_{\mathrm{bits}} \cdot \left( 1.74 \times 10^{-30} \text{ J} \right)
 \end{equation}
-Where $k_B$ is the Boltzmann constant.
-Since an exact node in the solar system can be defined with fewer than 1000 bits, this energy cost is microscopic (on the order of $\sim 10^{-18}$ Joules). Thermodynamically, the addressing cost is vanishingly small, but logically, it is absolutely essential to direct the matrix's update.
+
+Unlike kinetic propulsion, where energy scales exponentially with physical distance ($S$), $E_{\mathrm{info}}$ scales strictly with the logical data-size of the target coordinates. The translation cost is an administrative matrix fee, completely decoupled from the spatial metric.
+
 
 % ===================================================================
 \section{Phase 3: Rendering and Thermodynamic Equalization}
@@ -151,4 +155,3 @@ LVT Applied Mechanics (Open Source).}
 \end{center}
 
 \end{document}
-
