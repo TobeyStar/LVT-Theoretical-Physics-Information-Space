@@ -68,6 +68,11 @@ LVT is operationalized based on the following relational fields and parameters:
     \item \textbf{$LV_{\mathrm{internal}}$ (Internal Locational Variable):} The topological distance between constituent subsystems within a defined quantum state. It dictates internal non-local correlations, such as quantum entanglement [\text{discrete hops}].
     \item \textbf{$LV_{\mathrm{external}}$ (External Locational Variable):} The topological distance between the system and the macroscopic environmental matrix. It dictates the classical rendered space ($S$) and metric separation [\text{discrete hops}].
     \item \textbf{$C_{\mathrm{eff}}$ (Effective Informational Complexity):} Unique information in the system's subsystems [bits].
+
+    \item \textbf{Host Particle (Local Observer / Reference Frame):} A fundamental quantum state acting as the absolute center of its own rendered spatial geometry. In standard quantum formalism, this represents the localized observer or the pure inertial reference frame.
+\item \textbf{Guest Particle (The Environment):} External quantum states or informational vectors that interact with the Host. In standard decoherence theory, these represent the macroscopic environment.
+\item \textbf{Cosmic Horizon (Holographic Boundary):} The maximum geometric address space for a specific Host particle. It is a mathematical bounding sphere encoded by a finite array of Planck areas (approx. $10^{122}$ bits) containing the Host's relational data.
+
     
     \item \textbf{$O$ (Observation / Decoherence):} The degree of quantum mechanical entanglement with the \textit{external} environment, physically representing the influx of \textit{Guest} particle data onto the \textit{Host's} cosmic horizon. Defined via the system's purity, $O \in [0,1]$ [dimensionless].
 
@@ -101,6 +106,38 @@ Observation ($O$) is strictly operationalized via the reduced system's purity:
 O = \frac{d}{d-1} \left( 1 - \text{Tr}(\rho_S^2) \right)
 \end{equation}
 Where $d$ is the dimension of the Hilbert space. For a completely isolated, pure state, $\text{Tr}(\rho_S^2) = 1 \implies O = 0$. For a maximally mixed (decohered) state, $\text{Tr}(\rho_S^2) = 1/d \implies O = 1$.
+
+\subsection{The Relative Holographic Principle and Host-Guest Mechanics}
+
+The interaction between a localized reference frame (Host, $H$) and the external matrix (Guest, $G$) is governed by the Relative Holographic Principle. The Host's maximum addressable space is bounded by its Cosmic Horizon, encoding a finite informational capacity.
+
+\textbf{1. Horizon Entropy and Capacity:}
+The horizon constitutes an inverted black hole relative to the Host. Its total informational capacity is bounded by the Bekenstein-Hawking entropy:
+\begin{equation}
+S_{\mathrm{horizon}} = \frac{A}{4 l_P^2} \approx 10^{122} \text{ bits}
+\end{equation}
+where $A$ is the horizon surface area and $l_P$ is the Planck length.
+
+\textbf{2. Entanglement and Algorithmic Erasure:}
+Observation ($O$) occurs when Host $A$ resolves the quantum superposition of Guest $B$ (e.g., spin state $S$). This measurement reduces local logical entropy ($\Delta S_{\mathrm{local}} < 0$). To preserve total cosmic entropy, the matrix dictates:
+\begin{equation}
+\Delta S_{\mathrm{cosmic}} + \Delta S_{\mathrm{local}} = 0
+\end{equation}
+To satisfy this conservation, the matrix executes a discrete thermodynamic erasure on $A$'s horizon, defined by the entanglement algorithm:
+\begin{equation}
+(S^{+}, E^{-})_A \rightarrow (S^{-}, E^{+})_B = 0
+\end{equation}
+Here, $S^{+}$ and $S^{-}$ denote the resolved, orthogonal spin states. $E^{-}$ represents the "Gravity Bit"---the algorithmic erasure of exactly one Planck area from $A$'s horizon. $E^{+}$ denotes the corresponding emission of a Hawking photon into $A$'s observable universe to preserve energy balance.
+
+\textbf{3. Thermodynamic Cost:}
+The physical work required by the matrix to execute the $E^{-}$ erasure is derived from Landauer's principle evaluated at the horizon's Hawking temperature ($T_H$):
+\begin{equation}
+E_{\mathrm{Landauer}} = k_B T_H \ln(2) \approx 1.74 \times 10^{-30} \text{ J}
+\end{equation}
+
+This discrete erasure ($E^{-}$) and its associated thermodynamic cost ($E_{\mathrm{Landauer}}$) drive the macroscopic spatial contraction, serving as the fundamental mechanical generator of the topological potential ($\Phi_{LV}$) defined in Section 3.8.
+
+
 
 \subsection{The Local Threshold Field ($T_{\mathrm{local}}$)}
 The reality threshold is operationalized as a field integrated over the surrounding informational density. To preserve dimensional consistency ([bits]), a Yukawa-like decay kernel is applied:
@@ -249,8 +286,16 @@ In the limit $t \to 0$, the state of the system is defined by the graph's cardin
 \subsection{Gravity as an Entropic Informational Gradient}
 As derived in Section 4, the local metric $g_{\mu\nu}$ is a macroscopic effective description of the discrete topological potential $\Phi_{LV}$. Matter, represented as a high density of locked $LV$-nodes, induces a local extremum in the informational density ($\rho_C$). Gravitational acceleration is the graph's tendency to minimize the total logical action by driving masses along entropic gradients ($\nabla \Phi_{LV}$), which is classically observed as movement along geodesics in a curved spacetime.
 
-\subsection{Dark Matter (Coupling-Free Complexity)}
-In topological regions where the system's informational density $\rho_C$ is significant, but the local decoherence scalar $O < \epsilon$, the system's phase locking to the electromagnetic field is suppressed (which requires defined external $LV$-coordinates). However, the system contributes additively to the topological Poisson equation (Equation \ref{eq:Phi_LV}) via the term $\rho_C$. This generates a macroscopic field $\Phi_{LV}$ observed as gravitational mass without photon interaction (Dark Matter).
+\subsection{Dark Matter and Radial Scaling ($E_{\mathrm{DoF}}$)}
+In topological regions where the local decoherence scalar $O$ approaches zero (e.g., the galactic halo), the system's phase locking to the electromagnetic field is suppressed (which requires defined external $LV$-coordinates). However, it still actively resolves quantum entanglements, contributing additively to the topological Poisson equation (Equation \ref{eq:Phi_LV}).
+
+According to the Relative Holographic Principle, the thermodynamic cost of these threshold-state updates is governed by the system's constrained degree of freedom ($E_{\mathrm{DoF}}$). This energy requirement scales inversely with the macroscopic radius ($r$) of the dominant local system:
+\begin{equation}
+E_{\mathrm{DoF}} \propto \frac{1}{r}
+\end{equation}
+
+Consequently, isolated "pre-local" information at large cosmic radii pays a significantly higher Landauer tax per entanglement event compared to matter deep within a shared gravitational well. This elevated thermodynamic exhaust generates a disproportionately massive $\Phi_{LV}$ gradient, classically observed as the gravitational mass of Dark Matter, without necessitating novel non-baryonic particles.
+
 
 \subsection{Black Holes (Topological Compression and $T_{\mathrm{max}}$)}
 When the informational density in a spatial volume approaches the absolute computational threshold $T_{\mathrm{max}}$, the Bekenstein-Hawking bound is saturated. To prevent a catastrophic processing failure (a systemic computational overflow), the matrix avoids violating its maximum capacity ($C \to C_{\mathrm{max}}$) by forcing the internal topological distance to exactly zero ($|\Delta LV| \to 0$). All relational data within this volume is merged into a singular node. 
@@ -270,10 +315,17 @@ The term $\Lambda_{LV}$ in the topological Poisson equation (Equation \ref{eq:Ph
 The LVT formalism offers a mechanistic derivation of the quantum mechanical measurement problem and non-locality without introducing hidden variables, solely through the treatment of space as an emergent graph-theoretical property.
 
 \subsection{Wave Function Collapse (The Measurement Problem)}
-The transition from a coherent superposition to a defined spatial basis state is governed by the inequality $C \cdot O \geq T_{\mathrm{local}}$. For a microscopic system, $C$ is sufficiently small to allow unitary time evolution without exceeding $T_{\mathrm{local}}$. When the system becomes entangled with a macroscopic measurement apparatus, the complexity $C$ diverges and purity decreases ($O \to 1$). At the limit value, the time evolution transitions to a non-unitary projection, whereby the system's $LV$-pointer is singularly defined to prevent matrix divergence.
+
+The transition from a coherent superposition to a defined spatial basis state is governed by the inequality $C \cdot O \ge T_{local}$. For a microscopic system, $C$ is sufficiently small to allow unitary time evolution without exceeding $T_{local}$. When the system becomes entangled with a macroscopic measurement apparatus, the complexity $C$ diverges and purity decreases ($O \rightarrow 1$). 
+
+At the limit value, the time evolution transitions to a non-unitary projection. This projection is physically executed via the Relative Holographic entanglement algorithm (Section 3.3). To singularly define the system's LV-pointer and prevent matrix divergence, the universe resolves the spin uncertainty by executing the discrete topological erasure ($(S^{+}, E^{-})$), paying the strict Landauer thermodynamic cost on the Host's cosmic horizon.
 
 \subsection{Quantum Mechanical Entanglement and Non-Locality}
-For a multipartite non-separable state $|\psi_{AB}\rangle \neq |\psi_A\rangle \otimes |\psi_B\rangle$, the fundamental topological distance is exactly zero ($\Delta LV_{\mathrm{intern}} = 0$). The state mathematically constitutes one (1) node in the source graph. The classical metric distance $S(A,B)$ is a macroscopic representation of local decoherence differences against the respective environments ($\Delta LV_{\mathrm{extern}} \neq 0$). Lorentz invariance is thereby preserved in the classical limit, while state updates occur internally independent of metric separation.
+
+For a multipartite non-separable state $|\psi_{AB}\rangle \ne |\psi_A\rangle \otimes |\psi_B\rangle$, the fundamental topological distance is exactly zero ($\Delta LV_{internal} = 0$). In the Relative Holographic framework, this zero-distance is maintained by a two-bit addressing across the Host and Guest cosmic horizons, associating their information prior to measurement.
+
+The state mathematically constitutes one (1) node in the source graph. The classical metric distance $S(A,B)$ is a macroscopic representation of local decoherence differences against the respective environments ($\Delta LV_{external} \ne 0$). Lorentz invariance is thereby preserved in the classical limit, while logical spin-state updates occur instantaneously via horizon correlation, bypassing the metric separation entirely.
+
 
 \subsection{Environment-Induced Decoherence (Observer-Independent)}
 LVT excludes explicit anthropocentric observer requirements. The decoherence scalar $O$ is derived exclusively from the trace of the squared reduced density matrix $\text{Tr}(\rho_S^2)$. The orthogonalization of the environment's states (for example via photon or phonon scattering) is sufficient to induce phase loss in the system. The threshold crossing is thus a purely thermodynamic and graph-theoretical process.
