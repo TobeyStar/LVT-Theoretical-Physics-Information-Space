@@ -68,6 +68,6 @@ This project is licensed under the **Creative Commons Attribution 4.0 Internatio
 
 **Collaborator:** William Manuel
 
-**Contribution:** Relative Holographic Principle, Host/Guest particle and E_Lanuder
+**Contribution:** Relative Holographic Principle, Host/Guest particle and E_Launder
 
 
