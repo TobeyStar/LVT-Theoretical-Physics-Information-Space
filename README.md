@@ -64,9 +64,9 @@ This project is licensed under the **Creative Commons Attribution 4.0 Internatio
 *Space is the common heritage of humanity; the source code of the universe belongs to everyone.*
 
 ---
-**Founder & Chief Architect:** Tobias Nilsson
+**Messenger and Architect:** Tobias Nilsson
 
-**Collaborator:** William Manuel
+**Contributor:** William Manuel
 
 **Contribution:** Relative Holographic Principle, Host/Guest particle and E_Landauer
 
