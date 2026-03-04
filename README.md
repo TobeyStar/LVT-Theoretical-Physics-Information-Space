@@ -53,7 +53,7 @@ This repository contains the complete 14-document framework of LVT, including th
 ## 🔬 The Falsification Experiment: The Ping-Pong Protocol
 LVT is a scientific theory, not a philosophy. It offers a high-precision, testable prediction: If a quantum state is successfully isolated ($O \to 0$) and its address rewritten ($LV_A \to LV_B$), it will bypass the intervening spatial metric entirely. 
 
-The measurement of **Zero-Scattering** in the proposed ion-trap experiment will constitute a definitive confirmation of the informational paradigm.
+The measurement of **Zero-Scattering** and **Energy-Invariance** in the proposed ion-trap experiment will constitute a definitive confirmation of the informational paradigm.
 
 ---
 
