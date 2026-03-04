@@ -73,7 +73,10 @@ History is filled with revolutionary technologies that have been suppressed, cla
 The choice of the **Creative Commons Attribution-ShareAlike 4.0** license is a strategic defense against the "privatization of progress." 
 
 1. **Anti-Monopoly:** By publishing these 14 documents openly, we establish "Prior Art." No entity—state or corporate—can claim original patent rights over the fundamental principles of LVT or the topological translation process. 
-2. **The "ShareAlike" Mandate:** This license contains a "viral" clause. If you improve this technology, if you build a more efficient reactor, or if you refine the navigation algorithms, **you are legally and morally bound to release those improvements under the same open license.** 3. **Collective Inheritance:** Space, and the means to reach it, is the common heritage of all sentient life. To hide this information or to classify it behind "national security" or "corporate trade secrets" is to act against the evolution of our species.
+
+2. **The "ShareAlike" Mandate:** This license contains a "viral" clause. If you improve this technology, if you build a more efficient reactor, or if you refine the navigation algorithms, **you are legally and morally bound to release those improvements under the same open license.**
+  
+3. **Collective Inheritance:** Space, and the means to reach it, is the common heritage of all sentient life. To hide this information or to classify it behind "national security" or "corporate trade secrets" is to act against the evolution of our species.
 
 **We do not seek to stop profit; we seek to stop the suppression of the future.** We invite you to build, to engineer, and to explore—but you must do so in the light. Any attempt to "Capture, Extend, and Extinguish" this framework will be met with the full transparency of the global open-source community. 
 
