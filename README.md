@@ -1,14 +1,12 @@
 # Locational Variable Theory (LVT): The Universe as an Emergent Informational Matrix
 
 ![Status](https://img.shields.io/badge/Status-Complete-success)
-![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue)
+![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)
 ![Field](https://img.shields.io/badge/Field-Theoretical%20Physics-orange)
 
 > **"Space is not a container; it is a calculation. Distance is not a physical gap; it is a network protocol."**
 
 ---
-
-
 
 ## 🌌 Overview
 Locational Variable Theory (LVT) is an axiomatic field theory that operationalizes macroscopic spacetime as an emergent property of underlying quantum informational complexity. By redefining location ($LV$) as a node-pointer in a discrete informational graph, LVT provides a unified solution to the most persistent anomalies in modern physics.
@@ -66,8 +64,8 @@ We invite physicists, mathematicians, and engineers to:
 3.  **Collaborate on Experiments:** We are actively seeking laboratory teams with ion-trap capabilities to execute the Ping-Pong Protocol (DOC05).
 
 ## ⚖️ License
-This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**. 
-*Space is the common heritage of humanity; the source code of the universe belongs to everyone.*
+This project is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. 
+*Space is the common heritage of humanity; the source code of the universe, and any technologies derived directly from this framework, must remain open and accessible to everyone.*
 
 ---
 ### **Authorship & Acknowledgments**
