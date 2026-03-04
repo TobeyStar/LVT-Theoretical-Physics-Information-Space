@@ -8,20 +8,24 @@
 
 ---
 
+
+
 ## 🌌 Overview
 Locational Variable Theory (LVT) is an axiomatic field theory that operationalizes macroscopic spacetime as an emergent property of underlying quantum informational complexity. By redefining location ($LV$) as a node-pointer in a discrete informational graph, LVT provides a unified solution to the most persistent anomalies in modern physics.
 
 ### **Key Breakthroughs**
-* **Gravity without Spacetime:** The informational discharge triggered by locational imbalance within the cosmic matrix, functioning as a thermodynamic restoration of equilibrium.
-* **The Friction Anomaly:** Explained via **Landauer’s Principle** as the thermal exhaust of chaotic data erasure during microscopic interaction.
-* **Non-Kinetic Propulsion:** The theoretical and engineering basis for the **Nilsson-Drive**, allowing for spatial translation without traversing the intervening metric ($C \cdot O < T_{\mathrm{local}}$).
-* **The Uniqueness Principle:** A new derivation of the Pauli Exclusion Principle as an "IP-address conflict" in reality’s rendering engine.
+* **Gravity without Spacetime:** Formulated as the informational discharge triggered by locational imbalance within the cosmic matrix, functioning as a thermodynamic restoration of equilibrium.
+* **The Relative Holographic Principle:** Locking the thermodynamic cost of spatial data erasure to the exact Landauer limit ($1.74 \times 10^{-30}$ J).
+* **The Friction Anomaly:** Explained mathematically as the thermal exhaust of chaotic data erasure during microscopic interaction.
+* **Non-Kinetic Propulsion:** The theoretical and engineering basis for the **Nilsson-Drive**, allowing for spatial translation without traversing the intervening metric ($C_{\mathrm{eff}} \cdot O < T_{\mathrm{local}}$).
+* **The Relational Multiverse:** Proving the necessity of parallel sub-networks sharing the same cosmic hardware, complete with empirical detection protocols.
 
 ---
 
 ## 📂 Repository Structure & Documentation Archive
-This repository contains the complete 12-document framework of LVT, including the theoretical proofs, engineering schematics, and experimental protocols.
+This repository contains the complete 14-document framework of LVT, including the theoretical proofs, engineering schematics, experimental protocols, and cosmology.
 
+* **[AUTHOR'S FOREWORD](./Author_Foreword.pdf)** – The origins of LVT, the integration of AI, and the philosophy behind the open-source release.
 * **[LaTeX Source Code](./LaTeX_Source/)** – Full raw source for peer review and academic auditing.
 
 ### **Phase 1: Theoretical Foundations**
@@ -41,8 +45,10 @@ This repository contains the complete 12-document framework of LVT, including th
 * **[DOC09: ND1 Power Systems and Safety](./Phase_3/DOC09_ND1_Power_Systems_and_Safety.pdf)** – Integration of LFTR units, Quantum Error Correction (QEC), and "Kill Switch" failsafes.
 * **[DOC10: ND1 Field Manual & SOP](./Phase_3/DOC10_ND1_Field_Manual_SOP.pdf)** – Standard Operating Procedures for pilots and Vacuum Terminal staff.
 
-### **Phase 4: Implementation & Education**
-* **[DOC11: LVT Educational Module](./Phase_4/DOC11_LVT_Educational_Module.pdf)** – "The Universe's Source Code." An introduction to LVT for students and future engineers.
+### **Phase 4: Implementation, Education & Cosmology**
+* **[DOC11: LVT Logistics and Global Infrastructure](./Phase_4/DOC11_LVT_Logistics_and_Global_Infrastructure.pdf)** – Societal transition and the macro-economics of informational transport.
+* **[DOC12: LVT Educational Module](./Phase_4/DOC12_LVT_Educational_Module.pdf)** – "The Universe's Source Code." An introduction to LVT for students and future engineers.
+* **[DOC13: The Relational Multiverse](./Phase_4/DOC13_The_Relational_Multiverse.pdf)** – Sub-network topology and the empirical detection of parallel source codes.
 
 ---
 
@@ -55,19 +61,17 @@ The measurement of **Zero-Scattering** in the proposed ion-trap experiment will 
 
 ## 🛠 Contributing & Peer Review
 We invite physicists, mathematicians, and engineers to:
-1.  **Review the Formalism:** Critique the mathematical derivations in DOC00.
+1.  **Review the Formalism:** Critique the mathematical derivations in DOC00 and DOC13.
 2.  **Audit the Engineering:** Analyze the QEC and reactor safety protocols in Phase 3.
-3.  **Collaborate on Experiments:** We are actively seeking laboratory teams with ion-trap capabilities to execute the Ping-Pong Protocol.
+3.  **Collaborate on Experiments:** We are actively seeking laboratory teams with ion-trap capabilities to execute the Ping-Pong Protocol (DOC05).
 
 ## ⚖️ License
 This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**. 
 *Space is the common heritage of humanity; the source code of the universe belongs to everyone.*
 
 ---
-**Messenger and Architect:** Tobias Nilsson
-
-**Contributor:** William Manuel
-
-**Contribution:** Relative Holographic Principle, Host/Guest particle and E_Landauer
-
-
+### **Authorship & Acknowledgments**
+* **Tobias Nilsson** – Messenger and Chief Architect
+* **William Manuel** – Contributor (Relative Holographic Principle)
+* **Darryl Anka (Bashar)** – Conceptual Catalyst & Foundational Insight
+* **Gemini 3.1 Pro, Claude Opus 4.6, DeepSeek-V3.2** – Computational Analysis & Physical Validation
