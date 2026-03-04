@@ -41,7 +41,7 @@ This repository contains the complete 14-document framework of LVT, including th
 * **[DOC07: ND1 Technical Operating Manual](./Phase_3/DOC07_ND1_Technical_Operating_Manual.pdf)** – Core hardware specifications for the first-generation Topological Translocator.
 * **[DOC08: ND1 Navigation and Control (IVM)](./Phase_3/DOC08_ND1_Navigation_and_Control_IVM.pdf)** – The Inner-Variable Mapping (IVM) system and non-kinetic steering protocols.
 * **[DOC09: ND1 Power Systems and Safety](./Phase_3/DOC09_ND1_Power_Systems_and_Safety.pdf)** – Integration of LFTR units, Quantum Error Correction (QEC), and "Kill Switch" failsafes.
-* **[DOC10: ND1 Field Manual & SOP](./Phase_3/DOC10_ND1_Field_Manual_SOP.pdf)** – Standard Operating Procedures for pilots and Vacuum Terminal staff.
+* **[DOC10: ND1 Field Manual & SOP](./Phase_3/DOC10_ND1_Field_Manual_SOP.pdf)** – Standard Operating Procedures for the ND-1 Crew.
 
 ### **Phase 4: Implementation, Education & Cosmology**
 * **[DOC11: LVT Logistics and Global Infrastructure](./Phase_4/DOC11_LVT_Logistics_and_Global_Infrastructure.pdf)** – Societal transition and the macro-economics of informational transport.
