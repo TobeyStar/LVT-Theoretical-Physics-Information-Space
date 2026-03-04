@@ -59,7 +59,7 @@ The measurement of **Zero-Scattering** in the proposed ion-trap experiment will 
 
 ## 🛠 Contributing & Peer Review
 We invite physicists, mathematicians, and engineers to:
-1.  **Review the Formalism:** Critique the mathematical derivations in DOC00 and DOC13.
+1.  **Review the Formalism:** Critique the mathematical derivations in DOC00 and DOC03.
 2.  **Audit the Engineering:** Analyze the QEC and reactor safety protocols in Phase 3.
 3.  **Collaborate on Experiments:** We are actively seeking laboratory teams with ion-trap capabilities to execute the Ping-Pong Protocol (DOC05).
 
