@@ -37,7 +37,7 @@ This repository contains the complete 14-document framework of LVT, including th
 * **[DOC04: LVT Metrology and Measurement Science](./Phase_2/DOC04_LVT_Metrology_and_Measurement_Science.pdf)** – Establishes the empirical protocols for measuring the universe’s informational source code.
 * **[DOC05: LVT Empirical Verification: The Ping-Pong Protocol](./Phase_2/DOC05_LVT_Empirical_Verification_Ping_Pong_Protocol.pdf)** – The definitive falsification experiment utilizing $^{171}\text{Yb}^+$ ion traps.
 
-### **Phase 3: Engineering & The Nilsson-Drive (ND-1)**
+### **Phase 3: Engineering and Operational Manual (ND-1 Spacecraft)**
 * **[DOC06: LVT Hysteresis and Transit Time](./Phase_3/DOC06_LVT_Hysteresis_and_Transit_Time.pdf)** – Analyzing informational lag and the constraints of instantaneous translation.
 * **[DOC07: ND1 Technical Operating Manual](./Phase_3/DOC07_ND1_Technical_Operating_Manual.pdf)** – Core hardware specifications for the first-generation Topological Translocator.
 * **[DOC08: ND1 Navigation and Control (IVM)](./Phase_3/DOC08_ND1_Navigation_and_Control_IVM.pdf)** – The Inner-Variable Mapping (IVM) system and non-kinetic steering protocols.
@@ -45,7 +45,7 @@ This repository contains the complete 14-document framework of LVT, including th
 * **[DOC10: ND1 Field Manual & SOP](./Phase_3/DOC10_ND1_Field_Manual_SOP.pdf)** – Standard Operating Procedures for the ND-1 Crew.
 
 ### **Phase 4: Implementation, Education & Cosmology**
-* **[DOC11: LVT Logistics and Global Infrastructure](./Phase_4/DOC11_LVT_Logistics_and_Global_Infrastructure.pdf)** – Societal transition and the macro-economics of informational transport.
+* **[DOC11: ND Transit Pod Logistics and Global Infrastructure](./Phase_4/DOC11_ND_Transit_Pod_Logistics_and_Global_Infrastructure.pdf)** – Societal transition and the macro-economics of ND Transit Pod transportation.
 * **[DOC12: LVT Educational Module](./Phase_4/DOC12_LVT_Educational_Module.pdf)** – "The Universe's Source Code." An introduction to LVT for students and future engineers.
 * **[DOC13: The Relational Multiverse](./Phase_4/DOC13_The_Relational_Multiverse.pdf)** – Sub-network topology and the empirical detection of parallel source codes.
 
