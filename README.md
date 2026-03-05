@@ -33,7 +33,7 @@ This repository contains the complete 14-document framework of LVT, including th
 * **[DOC03: LVT Applied Mathematics and Mechanics](./Phase_1/DOC03_LVT_Applied_Mathematics_and_Mechanics.pdf)** – The calculus of node-pointers and relational data dynamics.
 
 ### **Phase 2: Experimental & Measurement Science**
-* **[DOC04: LVT Metrology and Measurement Science](./Phase_2/DOC04_LVT_Metrology_and_Measurement_Science.pdf)** – Standards for calibrating instruments against the universal "server tick" (Planck time).
+* **[DOC04: LVT Metrology and Measurement Science](./Phase_2/DOC04_LVT_Metrology_and_Measurement_Science.pdf)** – Establishes the empirical protocols for measuring the universe’s informational source code.
 * **[DOC05: LVT Empirical Verification: The Ping-Pong Protocol](./Phase_2/DOC05_LVT_Empirical_Verification_Ping_Pong_Protocol.pdf)** – The definitive falsification experiment utilizing $^{171}\text{Yb}^+$ ion traps.
 
 ### **Phase 3: Engineering & The Nilsson-Drive (ND-1)**
