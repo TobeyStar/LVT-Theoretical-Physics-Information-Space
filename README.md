@@ -66,7 +66,7 @@ We invite physicists, mathematicians, and engineers to:
 
 ## ⚖️ License — A Message to Corporations, States, and Research Institutes
 
-The Locational Variable Theory (LVT) and the ND-1 architecture are released with a deliberate and unyielding stance: **The source code of the universe cannot be owned.**
+The Locational Variable Theory (LVT) and the Nilsson-Drive Model architecture are released with a deliberate and unyielding stance: **The source code of the universe cannot be owned.**
 
 History is filled with revolutionary technologies that have been suppressed, classified, or monopolized for the benefit of the few, while the many continue to suffer under obsolete paradigms. The "Kinetic Dogma" and the global dependence on chemical propulsion are not just scientific hurdles—they are economic and planetary chains. 
 
