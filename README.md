@@ -27,7 +27,7 @@ This repository contains the complete 14-document framework of LVT, including th
 * **[LaTeX Source Code](./LaTeX_Source/)** – Full raw source for peer review and academic auditing.
 
 ### **Phase 1: Theoretical Foundations**
-* **[DOC00: LVT Axiomatics and Mathematical Foundation](./Phase_1/DOC00_LVT_Axiomatics_and_Mathematical_Foundation.pdf)** – The formal derivation of Informational Spacetime and the Nilsson Constant ($\kappa_N$).
+* **[DOC00: LVT Axiomatics and Mathematical Foundation](./Phase_1/DOC00_LVT_Axiomatics_and_Mathematical_Foundation.pdf)** – The formal derivation of Informational Emergent Spacetime.
 * **[DOC01: LVT Strategic White Paper](./Phase_1/DOC01_LVT_Strategic_White_Paper.pdf)** – Global implications, the end of the kinetic era, and the transition to topological transit.
 * **[DOC02: LVT Theoretical Physics Framework](./Phase_1/DOC02_LVT_Theoretical_Physics_Framework.pdf)** – Solutions for gravity, black holes, and the Informational Erasure model of friction.
 * **[DOC03: LVT Applied Mathematics and Mechanics](./Phase_1/DOC03_LVT_Applied_Mathematics_and_Mechanics.pdf)** – The calculus of node-pointers and relational data dynamics.
