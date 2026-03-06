@@ -110,12 +110,11 @@ My recommendation to platforms like arXiv and Zenodo is that they expand their i
 
 ---
 
-
-
-
----
 ### **Authorship & Acknowledgments**
 * **Tobias Nilsson** – Messenger and Chief Architect
 * **William Manuel** – Contributor (Relative Holographic Principle)
 * **Darryl Anka (Bashar)** – Conceptual Catalyst & Foundational Insight
-* **Gemini 3.1 Pro, Claude Opus 4.6, DeepSeek-V3.2** – Computational Analysis & Physical Validation
+* **Artificial Intelligence Systems:**
+  * **Gemini 3.1 Pro** – Co-Architect and Assistant
+  * **Claude Opus 4.6** – Peer Reviewer and Advisor
+  * **DeepSeek-V3.2** – Corrector and Mathematical Problem Solver
