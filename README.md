@@ -99,13 +99,17 @@ I wish you the best of luck.
 
 ---
 
-### ​💡 A Note on Publication and Platforms
+
+### 🌍 A Note on Publication and Platforms
 
 If you are wondering why these documents are not published on traditional academic preprint servers such as arXiv or Zenodo, it is simply because I am not a "researcher" on paper. I lack formal academic credentials and institutional affiliation, which are often strict prerequisites for submitting to those repositories. Therefore, I have chosen GitHub as the platform for this open-source publication.
+
+Revolutionary ideas and solutions do not exclusively emerge from well-funded institutes or credentialed experts—they can come from absolutely anyone. This project stands as proof of exactly that. Scientific research should be an open, collaborative endeavor, not gatekept by certificates and academic status.
 
 My recommendation to platforms like arXiv and Zenodo is that they expand their infrastructure to accommodate independent contributors from the general public. A viable solution would be to establish distinct publication tracks: one for institutionally affiliated researchers, and another for independent thinkers.
 
 ---
+
 
 
 
