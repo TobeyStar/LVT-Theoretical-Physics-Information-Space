@@ -99,7 +99,7 @@ I wish you the best of luck.
 
 ---
 
-### 🏛️ A Note on Publication and Platforms
+### ​💡 A Note on Publication and Platforms
 
 If you are wondering why these documents are not published on traditional academic preprint servers such as arXiv or Zenodo, it is simply because I am not a "researcher" on paper. I lack formal academic credentials and institutional affiliation, which are often strict prerequisites for submitting to those repositories. Therefore, I have chosen GitHub as the platform for this open-source publication.
 
